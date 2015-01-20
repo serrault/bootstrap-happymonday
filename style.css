@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans";
+	background-color: #EDEFF0;
+}
+
+
+h1,h2, h3{
+	font-family: "Montserrat";
+}
+
+.padded{
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+#banner {
+	background-image: url(image/banner.jpg);
+	background-size: cover;
+	height: 700px;
+	color: white;
+	padding: 100px 50px;
+}
+
+#banner h1{
+	font-size: 60px;
+}
+
+#banner p{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+#bg-default {
+	padding-top: 100px;
+	height: 500px;
+	text
+}
+
+#formulaire {
+	height: 700px;
+	background-color: white;		
+}
+
+#form-inline {
+	background-color: white;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+#footer {
+	background-color: black;
+	height: 100px;
+	padding:40px;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover {
+	color: lightgrey;
+}
+
+#footer h1{
+	color:white;
+	text-align: right;
+	font-size: 16px;
+	padding-bottom:20px;
+
+}

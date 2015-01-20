@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <title>HAPPY MONDAY</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">HAPPY MONDAY</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">contact</a></li>
+            <li class="contact">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">liens <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://www.facebook.com/francoise.serrault">Facebook</a></li>
+                <li><a href="https://twitter.com/francoiserrault">Twitter</a></li>
+                <li><a href="http://instagram.com/francoiseserrault/">Instagram</a></li>
+                <li><a href="http://fr.linkedin.com/pub/francoise-serrault/5/BA4/49">Linkedin</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="banner">
+      <h1>HAPPY MONDAY</h1>
+      <p>Music Services Agency</p>
+      <p>Management, sync, events, production, </p>
+      <a href="" class="btn btn-danger btn-lg">Notre expertise</a>
+    </div>
+
+
+    <div class="bg-primary padded">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+          <div class="card">
+            <img src="image/clef_musique.svg">
+            <h2>Conseil</h2>
+            <p>Artistes et Marques</p>
+          </div> 
+        </div> 
+        
+        <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+          <div class="card">
+          <img src="image/music_sync.svg">
+          <h2>Musique à l'image</h2>
+          <p>cinéma, pub, programmes tv...</p>
+          </div>  
+        </div>
+        
+
+        <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+          <div class="card">
+          <img src="image/management.svg">
+          <h2>Management</h2>
+          <p>Conseil Artistique et juridique</p>
+          </div>  
+        </div> 
+
+
+        <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+          <div class="card">
+          <img src="image/Event.svg">
+          <h2>Organisation d'évènements</h2> 
+          <p>Soirées, séminaires, concerts...</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+      
+
+    <div class="text-center padded">
+      <h2>Get our newsletter</h2>
+      <p>leave your mail</p> 
+      <form class="form-inline">
+           <input type="email" placeholder="bob@gmail.com" class="form-control">
+           <input type="submit" value="Subscribe" class="btn btn-danger">
+      </form>
+    </div>
+
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+    var myOptions = {
+     zoom: 16,
+     center: myLatlng,
+     scrollwheel: false,
+     mapTypeId: google.maps.MapTypeId.ROADMAP,
+     styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+      };
+      var map = new google.maps.Map(document.getElementById('map'), myOptions);
+      var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title:"You are here!"
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+   <div id="footer">
+    <ul class="list-inline">
+      <li><a href="https://twitter.com/francoiserrault"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="http://instagram.com/francoiseserrault/"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://www.facebook.com/francoise.serrault"><i class="fa fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+    </ul>
+    <h1>@HappyMonday</h1>
+    </div>
+      
+  </body>
+</html>
